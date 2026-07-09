@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <h1>Sabrin Manandhar</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="downloads/profile.jpg" alt= "my profile" width="200">
+            <p>
+                I'm a front-end developer and CSE 230 student who enjoys building
+                clean, accessible websites. I'm currently focused on mastering
+                semantic HTML and modern CSS, with an eye toward full-stack
+                development down the road.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <dl>
+                <dt>HTML5</dt>
+                <dd>Building accessible, semantic page structures without relying on non-semantic divs.</dd>
+
+                <dt>CSS3</dt>
+                <dd>Responsive layouts using Flexbox and Grid.</dd>
+
+                <dt>JavaScript</dt>
+                <dd>DOM manipulation and basic front-end interactivity.</dd>
+
+                <dt>Git &amp; GitHub</dt>
+                <dd>Version control and collaborative workflows for team projects.</dd>
+            </dl>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article>
+                <h3>Recipe Finder App</h3>
+                <p>
+                    A single-page app that lets users search for recipes by
+                    ingredient using a public food API. Built with vanilla
+                    JavaScript and fetch().
+                </p>
+            </article>
+
+            <article>
+                <h3>Budget Tracker</h3>
+                <p>
+                    A simple expense tracker that stores entries locally and
+                    calculates running totals by category.
+                </p>
+            </article>
+
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Send Message">
+                </p>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sabrin Manandhar. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
